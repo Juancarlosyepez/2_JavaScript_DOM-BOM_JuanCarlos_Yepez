@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/notas.js"></script>
+  </head>
+  <body>
+    <div id="cabecera" align="center" >
+       <H1 id="encabezado">Registro de Estudiantes</H1>
+    </div>
+    <div id="div" align="center">
+        <h2 id="texto">Ingresar Datos</h2>
+        
+      <form id="formulario">
+        <fieldset >
+          <label id="itemlabel1" for="Nombre">Codigo:</label>
+          <br>
+          <input id="codigo" class="iteminput" type="text"/>
+          <br><br>
+          <label id="itemlabel2" for="Codigo">Nombre:</label>
+          <br>
+          <input id="nombre" class="iteminput" type="text"/>
+          <br><br>
+          <label id="itemlabel3" for="Nota">Nota:</label>
+          <br>
+          <input id="nota" class="iteminput" type="text"/>
+        </fieldset>
+      </form> 
+      <br>     
+          <button id="registro" onclick="RegistroAlumno()">Registrar Estudiante</button>   
+          <button id="prom" onclick="promedio()">Mostras Promedio</button>
+          <input type="button" id="mayor" value="Mostrar Nota Mayor" onclick="Mayor()">
+          <input type="button" id="menor" value="Mostrar Nota Menor" onclick="Menor()">
+        <p id="resultado">Resultado=?</p>
+        
+        <H1>Listado de Estudiantes</H1>
+
+        <table id="tabla-registro" border="1">
+          <thead>
+            <tr>
+              <th>Codigo</th>
+              <th>Nombre</th>
+              <th>Nota</th>
+            </tr>
+          </thead>
+          <tbody id="tablaalumno">
+            
+          </tbody>
+        </table>  
+          
+    </div>
+  </body>
+</html>

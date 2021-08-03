@@ -1,0 +1,129 @@
+#div{
+  background: #34495e;
+  position: absolute;
+  top: 11%;
+  left: 5%;
+  width: 40%;
+  height: 90%;
+  padding: 10px 10px 10px 10px;
+}
+
+#cabecera{
+  background: #95a5a6;
+  padding: 5px 5px 5px 15px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 40%;
+  height: 5%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#operacion{
+  border-radius: 5px;
+  background-color: #fff;
+  background-color: #bdc3c7;
+}
+#encabezado{
+
+  font-family: arial;
+  font-size: 30px;
+  font-stretch: 10px;
+  color: #34495e;
+  margin:  5px;
+}
+
+#promedio{
+  border-radius: 5px;
+
+  background-color: #bdc3c7;
+}
+#num{
+  border-radius: 5px;
+  width: 90px;
+  border-color: #7f8c8d;
+  background-color: #bdc3c7
+}
+#tabla-registro{
+  background-color: white;
+  font-size: 15px;
+  color: black;
+  font-family: arial;
+}
+#texto{
+  font-family: arial;
+  color: #fff;
+}
+
+#promedio{
+  font-family: arial;
+  color: #FF00FF;
+}
+
+#registro{
+  border-radius: 5px;
+  background-color: #bdc3c7;
+}
+#prom{
+  border-radius: 5px;
+  background-color: #bdc3c7;
+}
+
+#mayor{
+  border-radius: 5px;
+  background-color: #bdc3c7;
+}
+
+#menor{
+  border-radius: 5px;
+  background-color: #bdc3c7;
+}
+
+#titulo{
+  font-family: arial;
+  color: #99FFFF;
+}
+
+#resultado{
+  border-radius: 5px;
+  background-color: #fff;
+  font-family: arial;
+  color: #FF00FF;
+  width: 250px;
+}
+
+#itemlabel1{
+  font-family: arial;
+  color: white;
+  margin-left: -400px;
+
+}
+
+#itemlabel2{
+  font-family: arial;
+  color: white;
+  margin-left: -395px;
+
+}
+#itemlabel3{
+  font-family: arial;
+  color: white;
+  margin-left: -415px;
+  margin-bottom: 5px;
+
+}
+
+.iteminput{
+  width: 250px;
+  border-radius: 15px;
+  margin-left: -215px;
+  background-color: #c5c68a;
+
+}
+
+
+
+
+
+
